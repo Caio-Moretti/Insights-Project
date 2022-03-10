@@ -1,9 +1,10 @@
 # House Rocket Insights Project
+
+![House for sale](house_for_sale_2.jpg)
+
 The goal of this project is to create insights through data analysis and manipulation to help the decision making of the Business Team of a fictional company (House Rocket).
 Therefore, learning the basics of Data Analysis using python and understanding a little more how it is to work with data.
 
-![House for sale](house_for_sale.jpg)
- 
 ## 1 - Business Problem.
 
 ### 1.1 - Description
