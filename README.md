@@ -135,7 +135,7 @@ Properties with 3 bathrooms have a price growth of more than 15% per month.
 
 Following the data-driven suggestions made (theoretically buying and selling all avaliable properties), this is the forecast:
 
-|   Nº of Properties |   Total Cost (US$) |   Sales Revenue (US$) |   Profit Mean |
+|   Nº of Properties |   Total Cost (US$) |   Sales Revenue (US$) |   Profit  |
 |-------------------:|-------------------:|----------------------:|--------------:|
 |              10579 |   4,094,212,008.00 |     5,294,160,803.20  | 1,199,948,795.20 |
 
