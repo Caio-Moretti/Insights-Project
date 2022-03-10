@@ -67,18 +67,28 @@ The dataset used in this project comes from the official public records of home 
 ## 4 - Top 5 Business Insights.
 **Hypothesis 01:**
 Water view properties are, at least, 20% more expensive, on avarege.
+**TRUE:** Properties with water view are 212.63% more expensive, on avarege.
+
+|    |   waterfront |   buying_price_mean |
+|---:|-------------:|--------------------:|
+|  0 |            0 |    531558.54           |
+|  1 |            1 |         1661876.02 |
 
 **Hypothesis 02:**
 Properties built before 1955 are more than 50% cheaper, on avarege.
+**FALSE**: The properties built before 1955 are, actually, 4.46% more expensive, on avarage.
 
 **Hypothesis 03:**
 properties without a basement have a total area, at least, 40% larger than properties with basement, on avarage.
+**FALSE**: Properties without basement are 18.41% larger than the ones with basement, on avarage.
 
 **Hypothesis 04:**
 The property price growth YoY (Year over Year) is more than 10%.
+**FALSE**: The price percentage growth of 2015 over 2014 is 0.52%
 
 **Hypothesis 05:**
 Properties with 3 bathrooms have a price growth of more than 15% per month.
+**FALSE**: Properties with 3 bathrooms have a price growth of 0.32% per month, on avarage.
 
 ## 5 - Tools used
  - Python 3.9.7;
