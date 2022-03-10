@@ -78,17 +78,39 @@ Water view properties are, at least, 20% more expensive, on avarege.
 Properties built before 1955 are more than 50% cheaper, on avarege.
 **FALSE**: The properties built before 1955 are, actually, 4.46% more expensive, on avarage.
 
+|    |   yr_built |   buying_price |
+|---:|-----------:|---------------:|
+| 53 |       1953 |         490423 |
+| 46 |       1946 |         524641 |
+| 25 |       1925 |         607219 |
+| 28 |       1928 |         621714 |
+| 32 |       1932 |         458409 |
+|  5 |       1905 |         752978 |
+| 50 |       1950 |         490506 |
+| 51 |       1951 |         545029 |
+| 52 |       1952 |         530437 |
+| 10 |       1910 |         671536 |
+
 **Hypothesis 03:**
 properties without a basement have a total area, at least, 40% larger than properties with basement, on avarage.
 **FALSE**: Properties without basement are 18.41% larger than the ones with basement, on avarage.
 
+|    | has_basement   |   sqft_lot_mean |
+|---:|:---------------|----------------:|
+|  0 | False          |         16284.2 |
+|  1 | True           |         13287.2 |
+
 **Hypothesis 04:**
 The property price growth YoY (Year over Year) is more than 10%.
-**FALSE**: The price percentage growth of 2015 over 2014 is 0.52%
+**FALSE**: The price percentage growth of 2015 over 2014 is 0.52%.
+
+![2014 and 2015 Buying Price Means](barplot_hypothesis_04.png)
 
 **Hypothesis 05:**
 Properties with 3 bathrooms have a price growth of more than 15% per month.
 **FALSE**: Properties with 3 bathrooms have a price growth of 0.32% per month, on avarage.
+
+![Growth Percentage Over The Months (Month over Month)](lineplot_hypothesis_05_correct.png)
 
 ## 5 - Tools used
  - Python 3.9.7;
