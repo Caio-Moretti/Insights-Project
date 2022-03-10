@@ -104,7 +104,7 @@ properties without a basement have a total area, at least, 40% larger than prope
 The property price growth YoY (Year over Year) is more than 10%.
 **FALSE**: The price percentage growth of 2015 over 2014 is 0.52%.
 
-![2014 and 2015 Buying Price Means](barplot_hypothesis_04.png)
+![2014 and 2015 Buying Price Means](barplot_hypothesis_04_correct.png)
 
 **Hypothesis 05:**
 Properties with 3 bathrooms have a price growth of more than 15% per month.
